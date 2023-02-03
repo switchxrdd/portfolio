@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Bootstrap",
+    "path": "/image/skills/bootstrap.svg"
+  },
+  {
+    "name": "CSS",
+    "path": "/image/skills/css.svg"
+  },
+  {
+    "name": "GitHub",
+    "path": "/image/skills/github.svg"
+  },
+  {
+    "name": "HTML",
+    "path": "/image/skills/html.svg"
+  },
+  {
+    "name": "JavaScript",
+    "path": "/image/skills/javascript.svg"
+  },
+  {
+    "name": "MongoDB",
+    "path": "/image/skills/mongodb.svg"
+  },
+  {
+    "name": "NextJS",
+    "path": "/image/skills/nextjs.svg"
+  },
+  {
+    "name": "React",
+    "path": "/image/skills/react.svg"
+  },
+  {
+    "name": "TypeScript",
+    "path": "/image/skills/typescript.svg"
+  },
+  {
+    "name": "Vercel",
+    "path": "/image/skills/vercel.svg"
+  },
+  {
+    "name": "Tailwind",
+    "path": "/image/skills/tailwind.svg"
+  },
+  {
+    "name": "Express",
+    "path": "/image/skills/express.svg"
+  },
+  {
+    "name": "NodeJS",
+    "path": "/image/skills/node.svg"
+  },
+  {
+    "name": "Yarn",
+    "path": "/image/skills/yarn.svg"
+  }
+]
