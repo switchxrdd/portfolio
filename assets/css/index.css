@@ -15,7 +15,7 @@ body {
   background-color: #000000;
   color: #c2c6cc;
   opacity: 0.8;
-  background-image:  linear-gradient(#060606 1.1px, transparent 1.1px), linear-gradient(to right, #060606 1.1px, #000 1.1px);
+  background-image:  linear-gradient(#000000 1.1px, transparent 1.1px), linear-gradient(to right, #000000 1.1px, #000 1.1px);
   background-size: 22px 22px;
   font-family: "Poppins", sans-serif;
 }
