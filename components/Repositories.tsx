@@ -7,7 +7,7 @@ export default function Repositories() {
   const [loading, setLoading] = useState(true);
 
   const getRepositories = async () => {
-    fetch("https://api.github.com/users/developerasianlover/repos")
+    fetch("https://api.github.com/users/" + constants.githubId + "/repos")
       .then((response) => response.json())
       .then((data) => {
         setData(
@@ -56,7 +56,7 @@ export default function Repositories() {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 w-full gap-2 items-center mt-4">
           {data.map((item: Repositories, index) => (
-            <Link key={index} href={"https://github.com/Roxza/" + item.name} target="_blank" className="h-full bg-zinc-900/90 hover:bg-zinc-200/20 relative transition-all duration-200 flex flex-col rounded-lg py-4 px-5">
+            <Link key={index} href={"https://github.com/developerasianlover/" + item.name} target="_blank" className="h-full bg-zinc-900/90 hover:bg-zinc-200/20 relative transition-all duration-200 flex flex-col rounded-lg py-4 px-5">
               <i className="fal fa-arrow-up-right-from-square absolute top-4 right-5" />
               <h1 className="leading-none text-lg text-zinc-100">
                 <span className="text-primary text-xl font-medium">switchxrd</span>/{item.name}
