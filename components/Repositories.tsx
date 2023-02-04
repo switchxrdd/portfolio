@@ -7,7 +7,7 @@ export default function Repositories() {
   const [loading, setLoading] = useState(true);
 
   const getRepositories = async () => {
-    fetch("https://api.github.com/users/" + constants.githubId + "/repos")
+    fetch("https://api.github.com/users/developerasianlover/repos")
       .then((response) => response.json())
       .then((data) => {
         setData(
