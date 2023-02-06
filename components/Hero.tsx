@@ -6,7 +6,7 @@ export default function Hero() {
   const [data, setData] = useState({
     avatar: null,
     discriminator: null,
-    status: "",
+    status: null,
   });
   const [loading, setLoading] = useState(true);
 
