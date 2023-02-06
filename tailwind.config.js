@@ -18,7 +18,7 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
-      primary: "#7289DA",
+      primary: "#757E8A",
       zinc: colors.zinc,
     }
   },
