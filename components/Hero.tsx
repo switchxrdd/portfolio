@@ -62,7 +62,7 @@ export default function Hero() {
       <h1 className="text-5xl font-semibold text-white">
         <span className="text-primary font-bold">Hello,</span> I’m switchxrd 👋
       </h1>
-      <p className="mt-4 text-md text-gray-200">Hello! my name is switch, I am a backend developer. I based in İstanbul/Turkey and, I can speak 3 languages.</p>
+      <p className="mt-4 text-md text-gray-200">Hello! my name is switch, I am a front-end developer I based in İstanbul/Turkey and I can speak 3 languages.</p>
     </div>
   );
 }
