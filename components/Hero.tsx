@@ -7,7 +7,6 @@ export default function Hero() {
     avatar: null,
     discriminator: null,
     status: null,
-    currentTrack: null,
   });
   const [loading, setLoading] = useState(true);
 
@@ -15,40 +14,14 @@ export default function Hero() {
     fetch("https://api.lanyard.rest/v1/users/" + constants.discordId)
       .then((response) => response.json())
       .then((data) => {
-        setData({ 
-          avatar: data.data.discord_user.avatar, 
-          discriminator: data.data.discord_user.discriminator, 
-          status: data.data.discord_status, 
-        });
+        setData({ avatar: data.data.discord_user.avatar, discriminator: data.data.discord_user.discriminator, status: data.data.discord_status });
       })
       .finally(() => setLoading(false));
-  };
-  const getSpotifyData = async () => {
-    fetch("https://api.spotify.com/v1/me/player/currently-playing")
-      .then((response) => response.json())
-      .then((data) => {
-        setData((prevData) => ({ 
-          ...prevData, 
-          currentTrack: data.item.name, 
-        }));
-      });
   };
 
   useEffect(() => {
     getUser();
-    getSpotifyData();
   }, []);
-
-  let status_class;
-  if (data.status === "online") {
-    status_class = "bg-green-500";
-  } else if (data.status === "idle") {
-    status_class = "bg-yellow-500";
-  } else if (data.status === "dnd") {
-    status_class = "bg-red-500";
-  } else {
-    status_class = "bg-gray-500";
-  }
 
   return (
     <div id="hero">
