@@ -12,10 +12,10 @@
 }
 
 body {
-  background-color: #1c2331;
+  background-color: #231F2E;
   color: #c2c6cc;
   opacity: 0.8;
-  background-image:  linear-gradient(#1c2331 1.1px, transparent 1.1px), linear-gradient(to right, #1c2331 1.1px, #1c2331 1.1px);
+  background-image:  linear-gradient(#231F2E 1.1px, transparent 1.1px), linear-gradient(to right, #231F2E 1.1px, #231F2E 1.1px);
   background-size: 22px 22px;
   font-family: "Poppins", sans-serif;
 }
