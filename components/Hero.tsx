@@ -53,7 +53,7 @@ export default function Hero() {
             </div>
           </div>
           <div>
-            <h1 className="text-zinc-200 transition-all duration-300 cursor-pointer text-lg leading-none hover:text-white">switchxrd</h1>
+            <h1 className="text-zinc-200 transition-all duration-300 cursor-pointer text-lg leading-none hover:text-white">switch</h1>
             <h1 className="text-zinc-400 text-xs leading-none">#{data.discriminator}</h1>
           </div>
         </div>
