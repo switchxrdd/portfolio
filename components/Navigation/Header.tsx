@@ -18,7 +18,7 @@ export default function Header() {
         <Link href="https://discord.com/users/847092784573186069" className="text-white hover:bg-zinc-400/20 transition-all flex items-center justify-center cursor-pointer social w-10 h-10 rounded-full">
           <i className="fab fa-discord"></i>
         </Link>
-        <Link href="https://github.com/developerasianlover" className="text-white hover:bg-zinc-400/20 transition-all flex items-center justify-center cursor-pointer social w-10 h-10 rounded-full">
+        <Link href="https://github.com/switchxrdd" className="text-white hover:bg-zinc-400/20 transition-all flex items-center justify-center cursor-pointer social w-10 h-10 rounded-full">
           <i className="fab fa-github"></i>
         </Link>
         <Link href="https://twitter.com/switchxrd" className="text-white hover:bg-zinc-400/20 transition-all flex items-center justify-center cursor-pointer social w-10 h-10 rounded-full">
